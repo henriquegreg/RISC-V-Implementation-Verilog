@@ -1,4 +1,7 @@
-[<img align="center" src="./GrupoCessar.jpg" width="250" height="250"/>](GrupoCessar.jpg)
+<p align="center">
+[<img src="./GrupoCessar.jpg" width="250" height="250"/>](GrupoCessar.jpg)
+</p>
+
 
 # Olá, bem-vindo ao repositório do grupo 3 (Grupo Cessar)!
 
