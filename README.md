@@ -1,11 +1,17 @@
+
+<p align="center">
+  <img src="./GrupoCessar.png" width="833.33px" height="208px"/>
+</p>
+
 <p align="center">
   <a href="https://github.com/henriquegreg/Grupo-3---Grupo-Cessar---PCS3115">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+  <a href="http://iverilog.icarus.com/">
+    <img src="http://iverilog.icarus.com/_/rsrc/1302225644705/config/customLogo.gif?revision=5" height="28" width="101" />
+  </a>
 </p>
-<p align="center">
-  <img src="./GrupoCessar.png" width="833.33px" height="208px"/>
-</p>
+
 
 
 # Olá, bem-vindo ao repositório do grupo 3 (Grupo Cessar)!
