@@ -10,6 +10,9 @@
   <a href="http://iverilog.icarus.com/">
     <img src="http://iverilog.icarus.com/_/rsrc/1302225644705/config/customLogo.gif?revision=5" height="28" width="101" />
   </a>
+  <a href="https://gtkwave.sourceforge.net/">
+    <img src="https://i.ibb.co/s1ztX55/gtk.png" height="28" width="101" />
+  </a>
 </p>
 
 
