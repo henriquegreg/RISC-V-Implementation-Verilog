@@ -12,4 +12,4 @@ Abaixo você poderá ver um diagrama detalhado que descreve o funcionamento do c
 
 Em cada uma das pastas, você encontrará os módulos utilizados para essa implementação, bem como seus respectivos testbenches. Além disso, há comentários nos códigos que explicam o comportamento de tais componentes.
 
-Espero que você se divirta bastante navegando pelos códigos! :)
+Espero que você se divirta bastante navegando pelos códigos e possa aprender mais ainda sobre Sistemas Digitais! :)
