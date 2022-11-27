@@ -1,4 +1,4 @@
-![GrupoCessar](GrupoCessar.jpg =100x100)
+[<img src="./GrupoCessar.jpg" width="250" height="250"/>](GrupoCessar.jpg)
 
 # Olá, bem-vindo ao repositório do grupo 3 (Grupo Cessar)!
 
