@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./GrupoCessar.png" width="833.33" height="208"/>
+  <img src="./GrupoCessar.png" width="100%" height="40%"/>
 </p>
 
 <p align="center">
