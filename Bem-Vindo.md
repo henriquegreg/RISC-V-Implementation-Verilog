@@ -1,4 +1,4 @@
-![GrupoCessar](GrupoCessar.png)
+![GrupoCessar](GrupoCessar.jpg)
 
 # Olá, bem-vindo ao repositório do grupo 3 (Grupo Cessar)!
 
