@@ -1,5 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+<\p>
+<p align="center">
   <img src="./GrupoCessar.png" width="833.33px" height="208px"/>
 </p>
 
