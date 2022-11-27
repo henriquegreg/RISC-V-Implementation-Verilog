@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./GrupoCessar.jpg" width="250" height="250"/>
+  <img src="./GrupoCessar.png" width="1000" height="250"/>
 </p>
 
 
