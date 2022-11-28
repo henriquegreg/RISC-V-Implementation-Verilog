@@ -151,3 +151,12 @@ Ademais, abaixo encontra-se uma visualização mais ao longe da simulação do p
  <img src="wave2.png" width="100%" height="30%" \>
 </p>
 
+Por último, simula-se uma situação na qual a senha é 9 o número de tentativas é 5, sendo elas, em sequência:
+``0 1 2 3 4``
+
+<p align="center">
+ <img src="wave3.png" width="100%" height="30%" \>
+</p>
+
+Percebe-se que o programa testa até terminarem todas as tentativas, sendo que nenhuma delas é a correta. Sendo assim, o resultado do programa é 0.
+
