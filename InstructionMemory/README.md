@@ -131,4 +131,7 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
  <img src="assembly.png" width="100%" height="80%" \>
 </p>
 
+## Resultados das simulações
+
+Ao simular o EP, foram testadas a realização da branch
  
