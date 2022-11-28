@@ -79,6 +79,17 @@ Os comandos para rodar são:
 iverilog risc-v.v risc-v_TB.v -Wall
 ``
 
+<p align="center">
+  ``⚠️ ATENÇÃO ⚠️``
+  ``Caso ocorra algum erro ao importat algum arquivo, um erro provável é que o Icarus Verilog considerou o caminho do workspace como padrão de início do navegação até um arquivo. Caso tenha problema com isso, ao baixar, substitua as pasta contidas nesse arquivo por estas contendo os imports levando em consideração a pasta do arquivo como padrão para importação``
+
+</p>
+<p align="center">
+  <a href="https://github.com/bertanbee/arquivos-substitutivos-sim">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
 Um arquivo nomeado "a.out" será gerado e, a seguir, deve ser executado.
 
 ``
