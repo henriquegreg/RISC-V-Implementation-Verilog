@@ -133,8 +133,8 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 
 ## Resultados das simulações
 
-Primeiro, simula-se uma situação na qual o número de tentativas é 5, sendo elas, em sequência:
-``4 3 1 5 2``
+Primeiro, simula-se uma situação na qual a senha é 9 o número de tentativas é 10, sendo elas, em sequência:
+``0 1 2 3 4 5 6 7 8 9``
 
 Abaixo está a primeira simulação de onda:
 <p align="center">
@@ -145,7 +145,7 @@ Observando a Posição na InstMem (valor armazenado no Program Counter), pode-se
 
 Percebe-se que os valores foram carregados nos registradores como esperado nas bordas do clock.
 
-Ademais, abaixo encontra-se uma visualização mais ao longe da simulação do programa. Percebe-se que foram testados os valores 
+Ademais, abaixo encontra-se uma visualização mais ao longe da simulação do programa. Percebe-se que foram testados os valores até a última tentativa, onde o valor 9 foi encontrado, armazenando o valor 1 ao resultado e travando a posição da Instruction Memory na posição final do programa.
 
 <p align="center">
  <img src="wave2.png" width="100%" height="30%" \>
