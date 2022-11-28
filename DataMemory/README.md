@@ -1,8 +1,28 @@
 # Memória de Dados
 
-Na memória de dados, são adicionadas as condições iniciais do programa que foi simulado no processador. A definição desse programa está presente na página inicial do repositório e na pasta da Memória de Instruções.7
+Na memória de dados, são adicionadas as condições iniciais do programa que foi simulado no processador. A definição desse programa está presente na página inicial do repositório e na pasta da Memória de Instruções.
 
-## Resursos para leitura e escrita na memória
+## Geração de Memórias de Dados automática
+O arquivo "generate_datamem.c" na linguagem C pode ser compilado por meio do comando:
+
+``gcc generate_datamem.c -o gerator``
+
+O arquivo generator será gerado. Ele deverá ser executado com o comando:
+
+``./generator > DataMemory.v``
+
+Os input são dessa forma:
+
+```
+3
+1
+2
+3
+```
+
+Sendo que o primeiro input é o número de tentativas n (< 10) e os outros números são os inputs para cada uma das tentativas n (cada uma < 10). No final, o arquivo DataMemory.v será gerado.
+
+## Recursos para leitura e escrita na memória
 Os sinais mem_read e mem_write habilitam a leitura de uma posição "endereco" (output "read_data") ou a escrita de uma "write_data" na posição endereço, respectivamente.
 A leitura é assíncrona (sem depender da borda de subida do clock) e a escrita é síncrona (ocorre na borda de subida do clock).
 
