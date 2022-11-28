@@ -140,3 +140,9 @@ Abaixo está a primeira simulação de onda:
 <p align="center">
  <img src="wave1.png" width="100%" height="30%" \>
 </p>
+
+Observando a Posição na InstMem (valor armazenado no Program Counter), pode-se saber a instrução atual sendo realizada no processador. Sendo assim, na figura anterior, pode ser visualizado até a instrução 3.
+
+Percebe-se que os valores foram carregados nos registradores como esperado nas bordas do clock.
+
+
