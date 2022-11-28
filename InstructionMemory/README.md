@@ -104,7 +104,7 @@ E é isso.
 
 Peraí, achou que não íamos explicar que transformação foi essa? :)
 
-Aqui embaixo está um esquema de para a passagem feitas da Memória de Dados para o programa no decorrer no programa.
+Aqui embaixo está um esquema das passagens feitas da Memória de Dados para o programa no decorrer do algoritmo.
 
 <p align="center">
  <img src="instmem.png" width="100%" height="80%" \>
