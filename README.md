@@ -109,6 +109,34 @@ Por fim, uma tela parecida com essa aparecerá:
   <img src="gtkwave.png" height="70%" width="100%" />
 </p>
 
+Para as testbenches, foi utilizado o Questa*-Intel® FPGA Edition Software.
+
+<p align="center">
+  <a href="https://www.intel.com.br/content/www/br/pt/software/programmable/quartus-prime/questa-edition.html">
+    <img src="https://www.intel.com.br/content/dam/logos/intel-header-logo.svg" height="28" width="101" />
+  </a>
+</p>
+
+Para simular, dentro das respectivas pastas, basta realizar os seguintes comandos:
+
+`` vlog seuarquivo.v``
+
+Com o seu código em Verilog compilado, agora basta compilar a testbench também:
+
+``vlog testbench.v``
+
+Por fim, você pode inicializar a simulação:
+
+``vsim -c work.testbench``
+
+Um novo terminal será aberto para a simulação. Agora você pode simular por um tempo determinado por ti, observe atentamente a testbench para adicionar o valor adequado. Abaixo um exemplo:
+
+``run 10000ns``
+
+Após a simulação terminar de rodar e mostrar os possíveis erros, basta inserir o seguinte comando para sair do novo terminal aberto:
+
+``quit``
+
 ## Considerações finais
 
 Em cada uma das pastas, você encontrará os módulos utilizados para essa implementação, bem como seus respectivos testbenches. Além disso, há comentários nos códigos que explicam o comportamento de tais componentes.
