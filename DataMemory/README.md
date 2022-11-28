@@ -3,6 +3,7 @@
 Na memória de dados, são adicionadas as condições iniciais do programa que foi simulado no processador. A definição desse programa está presente na página inicial do repositório e na pasta da Memória de Instruções.
 
 ## Geração de Memórias de Dados automática
+Para tornar a implementação do Exercício-Programa da disciplina de MAC2166 mais divertida, foi criado um método para gerar as suas próprias tentativas de adivinhas o número aleatório.
 O arquivo "generate_datamem.c" na linguagem C pode ser compilado por meio do comando:
 
 ``gcc generate_datamem.c -o gerator``
