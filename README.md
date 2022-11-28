@@ -43,7 +43,19 @@ Abaixo você poderá ver um diagrama detalhado que descreve o funcionamento do c
 
 ![Circuito](Circuito.jpg)
 
-### Como simular
+## Instruções
+As instruções que o processador feito pelo grupo utiliza são:
+|  Instrução  |   |   |   |   |
+|-------------|---|---|---|---|
+| add  |   |   |   |   |
+| sub   |   |   |   |   |
+| and |   |   |   |   |
+| or |   |   |   |   |
+| lw |   |   |   |   |
+| sw |   |   |   |   |
+| beq |   |   |   |   |
+
+## Simulação
 Para simular o nosso código, usamos o Icarus Verilog e o GTKWave.
 Abaixo estão os ícones com os links para o site do Icarus Verilog e do GTKWave, contendo as instruções para a instalação.
 <p align="center">
@@ -79,7 +91,7 @@ Por fim, uma tela parecida com essa aparecerá:
   <img src="gtkwave.png" height="70%" width="100%" />
 </p>
 
-### Considerações finais
+## Considerações finais
 
 Em cada uma das pastas, você encontrará os módulos utilizados para essa implementação, bem como seus respectivos testbenches. Além disso, há comentários nos códigos que explicam o comportamento de tais componentes.
 
