@@ -84,3 +84,5 @@ Por fim, uma tela parecida com essa aparecerá:
 Em cada uma das pastas, você encontrará os módulos utilizados para essa implementação, bem como seus respectivos testbenches. Além disso, há comentários nos códigos que explicam o comportamento de tais componentes.
 
 Espero que você se divirta bastante navegando pelos códigos e possa aprender mais ainda sobre Sistemas Digitais! :)
+
+## Referências
