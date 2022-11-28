@@ -1,10 +1,5 @@
 `timescale 1ns/100ps
 
-
-/*
-    Testes feitos antes das condicoes do EP 0.
-    Foram verificadas as possibilidades de dar write e read na memoria.
-*/
 module testbench ();
     reg clk;
     reg mem_read;
