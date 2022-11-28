@@ -86,3 +86,6 @@ Em cada uma das pastas, você encontrará os módulos utilizados para essa imple
 Espero que você se divirta bastante navegando pelos códigos e possa aprender mais ainda sobre Sistemas Digitais! :)
 
 ## Referências
+Instruction Set oficial do RISC-V: https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf
+Computer Organization and Design - RISC-V Edition: http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer%20Organization%20and%20Design%20RISC-V%20edition.pdf
+Guia Prático RISC-V 1.0.0: http://riscvbook.com/portuguese/guia-pratico-risc-v-1.0.0.pdf
