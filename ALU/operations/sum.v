@@ -42,7 +42,8 @@ module sumALU (
     wire C31;
 
     and (zero, A[0], ~A[0]);
-
+    
+    /* usando varios lookAheads em serie, calcula-se o valor da soma entre A e B */
     lookAhead1bALU s0 (.S(result[0]),   .A(A[0]),   .B(B[0]),   .C(zero), .Cout(C1));
     lookAhead1bALU s1 (.S(result[1]),   .A(A[1]),   .B(B[1]),   .C(C1), .Cout(C2));
     lookAhead1bALU s2 (.S(result[2]),   .A(A[2]),   .B(B[2]),   .C(C2), .Cout(C3));
