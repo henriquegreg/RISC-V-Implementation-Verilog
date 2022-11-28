@@ -133,6 +133,10 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 
 ## Resultados das simulações
 
-Como o registrador de posição 0x4 guarda o resultado final, esse é o principal padrão para a análise da simulação.
+Primeiro, simula-se uma situação na qual o número de tentativas é 5, sendo elas, em sequência:
+``4 3 1 5 2``
 
-TERMINAR
+Abaixo está a primeira simulação de onda:
+<p align="center">
+ <img src="wave1.png" width="100%" height="30%" \>
+</p>
