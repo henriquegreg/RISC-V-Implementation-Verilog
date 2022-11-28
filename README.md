@@ -45,15 +45,21 @@ Abaixo você poderá ver um diagrama detalhado que descreve o funcionamento do c
 
 ## Instruções
 As instruções que o processador feito pelo grupo utiliza são:
-|  Instrução  |   |   |   |   |
+|  Instrução  | Tipo |  Descrição |
 |-------------|---|---|---|---|
-| add  |   |   |   |   |
-| sub   |   |   |   |   |
-| and |   |   |   |   |
-| or |   |   |   |   |
-| lw |   |   |   |   |
-| sw |   |   |   |   |
-| beq |   |   |   |   |
+| add  | R  | Soma dois registradores (rs1 e rs2) e armazena o resultado no registrador rd  |
+| sub   | R | Subtrai dois registradores (rs1 e rs2) e armazena o resultado no registrador rd  |
+| and | R  | Faz a operação lógica and bitwise (bit a bit) entre dois registradores (rs1 e rs2) e armazena o resultado no registrador rd  |
+| or | R  | Faz a operação lógica or bitwise (bit a bit) entre dois registradores (rs1 e rs2) e armazena o resultado no registrador rd   |
+| lw (load word) | S  | carrega uma palavra da Memória de Dados da posição rs1 + offset e armazena o valor lido no registrador rd |
+| sw (storage word) |  I | armazena uma palavra do registrador rs2 na posição da Memória de Dados rs1 + offset |
+| beq (branch if equal) |  B | Compara o conteúdo dos registradores rs2 e rs1. Caso eles sejam iguais (a subtração entre os dois tem resultado 0), o Program Counter, que marca a linha atual na Instruction Memory, é setado para PC atual + offset  |
+
+Abaixo estão a estrutura de cada tipo de instrução:
+
+<p align="center">
+  <img src="instructionset.png" width="100%" height="39%" />
+</p>
 
 ## Simulação
 Para simular o nosso código, usamos o Icarus Verilog e o GTKWave.
