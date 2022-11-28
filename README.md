@@ -17,16 +17,16 @@
 
 <p align="center">
   <a href="https://github.com/orgs/Celao3-0/people/C-Tadaki-S">
-    <img src="https://avatars.githubusercontent.com/u/103610912?s=70&v=4" />
+    <img src="https://avatars.githubusercontent.com/u/103610912?s=70&v=4" height="50" width="50" />
   </a>
   <a href="https://github.com/orgs/Celao3-0/people/henriquegreg">
-    <img src="https://avatars.githubusercontent.com/u/103610752?s=70&v=4" />
+    <img src="https://avatars.githubusercontent.com/u/103610752?s=70&v=4" height="50" width="50" />
   </a>
   <a href="https://github.com/orgs/Celao3-0/people/jofe2003">
-    <img src="https://avatars.githubusercontent.com/u/112812381?s=70&v=4" />
+    <img src="https://avatars.githubusercontent.com/u/112812381?s=70&v=4" height="50" width="50" />
   </a>
   <a href="https://github.com/orgs/Celao3-0/people/bertanbee">
-    <img src="https://avatars.githubusercontent.com/u/52827517?s=70&v=4" />
+    <img src="https://avatars.githubusercontent.com/u/52827517?s=70&v=4" height="50" width="50" />
   </a>
 </p>
 
