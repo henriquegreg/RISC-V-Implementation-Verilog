@@ -50,12 +50,16 @@ module ALU (
     wire [3:0] and30;
     wire [3:0] and31;
 
-
+    
+    /* Aqui sao calculados a soma, a subtracao, o and e o or bitwise */
     sumALU adder (.A(A), .B(B), .result(resAdd), .Cout(overflowAdd));
     sub subtract (.A(A), .B(B), .result(resSub), .Cout(overflowSub));
     andModule andmod (.A(A), .B(B), .result(resAnd));
     orModule ormod (.A(A), .B(B), .result(resOr));
     
+    /* De acordo com o ALUOp, e selecionado o resultado entre os 4 anteriores em um mux.
+       Esse mux foi feito na forma estrutural
+    */
     and (and0[0], resAdd[0], ~ALUOp[3], ~ALUOp[2], ALUOp[1], ~ALUOp[0]);
     and (and0[1], resSub[0], ~ALUOp[3], ALUOp[2], ALUOp[1], ~ALUOp[0]);
     and (and0[2], resAnd[0], ~ALUOp[3], ~ALUOp[2], ~ALUOp[1], ~ALUOp[0]);
@@ -250,6 +254,8 @@ module ALU (
     or (result[30], and30[0], and30[1], and30[2], and30[3]);
     or (result[31], and31[0], and31[1], and31[2], and31[3]);
 
+    /* Por ultimo, calcula-se se o resultado vale zero por meio de um nor com todos os bits do resultado.
+       Esse valor e utilizado para a branch na instrucao beq */
     nor (zero,
     result[0],
     result[1],
