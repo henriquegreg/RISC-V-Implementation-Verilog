@@ -46,7 +46,7 @@ Abaixo você poderá ver um diagrama detalhado que descreve o funcionamento do c
 ## Instruções
 As instruções que o processador feito pelo grupo utiliza são:
 |  Instrução  | Tipo |  Descrição |
-|-------------|---|---|---|---|
+|-------------|---|---|
 | add  | R  | Soma dois registradores (rs1 e rs2) e armazena o resultado no registrador rd  |
 | sub   | R | Subtrai dois registradores (rs1 e rs2) e armazena o resultado no registrador rd  |
 | and | R  | Faz a operação lógica and bitwise (bit a bit) entre dois registradores (rs1 e rs2) e armazena o resultado no registrador rd  |
