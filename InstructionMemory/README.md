@@ -145,4 +145,9 @@ Observando a Posição na InstMem (valor armazenado no Program Counter), pode-se
 
 Percebe-se que os valores foram carregados nos registradores como esperado nas bordas do clock.
 
+Ademais, abaixo encontra-se uma visualização mais ao longe da simulação do programa. Percebe-se que foram testados os valores 
+
+<p align="center">
+ <img src="wave2.png" width="100%" height="30%" \>
+</p>
 
