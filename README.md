@@ -112,8 +112,8 @@ Por fim, uma tela parecida com essa aparecerá:
 Para as testbenches, foi utilizado o Questa*-Intel® FPGA Edition Software.
 
 <p align="center">
-  <a href="https://logos-world.net/wp-content/uploads/2021/09/Intel-Emblem.png">
-    <img src="https://www.intel.com.br/content/dam/logos/intel-header-logo.svg" height="28" width="101" />
+  <a href="https://www.intel.com.br/content/www/br/pt/software/programmable/quartus-prime/questa-edition.html">
+    <img src="https://logos-world.net/wp-content/uploads/2021/09/Intel-Emblem.png" height="28" width="101" />
   </a>
 </p>
 
