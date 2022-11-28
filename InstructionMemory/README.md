@@ -133,5 +133,4 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 
 ## Resultados das simulações
 
-Ao simular o EP, foram testadas a realização da branch
- 
+FAZER
