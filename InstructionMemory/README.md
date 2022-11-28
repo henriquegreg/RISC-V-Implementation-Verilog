@@ -108,3 +108,26 @@ Aqui embaixo está um esquema de para a passagem feitas da Memória de Dados par
 <p align="center">
  <img src="instmemo.png" width="100%" height="80%" \>
 </p>
+
+Foram traduzidos bit a bit cada uma das instruções add, sub, and, or, lw, sw e beq. As especificações dessas instruções estão em outras apresentações neste repositório.
+Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa, está exposto abaixo.
+
+
+<p align="center">
+💻 Programar em Assembly é trabalhoso. 💻
+ </p>
+ <p align="center">
+ Caso precise saber melhor o que cada uma das instruções está fazendo, analise o código, os diagramas deste README e as difinições do Instruction Set do RISC-V
+ </p>
+  <p align="center">
+ <a href="https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/RISC-V-logo-square.svg/1200px-RISC-V-logo-square.svg.png" height="30" width="30" \>
+ </a>
+ </p>
+ 
+ 
+<p align="center">
+ <img src="assembly.png" width="100%" height="80%" \>
+</p>
+
+ 
