@@ -80,9 +80,10 @@ iverilog risc-v.v risc-v_TB.v -Wall
 ``
 
 <p align="center">
-  ⚠️ ATENÇÃO ⚠️\n
+  ⚠️ ATENÇÃO ⚠️
+</p>
+<p align="center">
   Caso ocorra algum erro ao importat algum arquivo, um erro provável é que o Icarus Verilog considerou o caminho do workspace como padrão de início do navegação até um arquivo. Caso tenha problema com isso, ao baixar, substitua as pasta contidas nesse arquivo por estas contendo os imports levando em consideração a pasta do arquivo como padrão para importação
-
 </p>
 <p align="center">
   <a href="https://github.com/bertanbee/arquivos-substitutivos-sim">
