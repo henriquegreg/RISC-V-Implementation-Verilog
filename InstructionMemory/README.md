@@ -114,7 +114,7 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 
 
 <p align="center">
-💻 Programar em Assembly é trabalhoso. 💻
+💻 Programar em Assembly é trabalhoso 💻
  </p>
  <p align="center">
  Caso precise saber melhor o que cada uma das instruções está fazendo, analise o código (os comentários são interessantes), os diagramas deste README e as definições do Instruction Set do RISC-V. Link no ícone a seguir.
