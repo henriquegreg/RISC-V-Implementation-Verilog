@@ -3,7 +3,7 @@
 A unidade de controle é crucial, ela ditará o funcionamento do processador como um todo através de sinais de controle, que serão explanadas melhor posteriormente.
 O sinal de entrada da Unidade de Controle contém sete bits (Inputs), esses valores codificam as diversas saídas (Outputs). As operações executadas pelo processador dependem de cada módulo da Unidade de Controle, sendo os seguintes módulos:
 
-**ALU Src **: Indica que a fonte do dado da ALU deverá ser o immediate.
+**ALU Src**: Indica que a fonte do dado da ALU deverá ser o immediate.
 
 **Mem to Reg (Memória para Registrador):** Memory to Register, este sinal indica que um dado valor da memória de dados será lida e então, salva no Registrador.
 
