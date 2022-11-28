@@ -27,6 +27,31 @@ Abaixo você poderá ver um diagrama detalhado que descreve o funcionamento do c
 
 ![Circuito](Circuito.jpg)
 
+### Como simular
+Para simular o nosso código, usamos o Icarus Verilog e o GTKWave.
+Abaixo estão os ícones com os links para o site do Icarus Verilog e do GTKWave, contendo as instruções para a instalação.
+<p align="center">
+  <a href="http://iverilog.icarus.com/">
+    <img src="http://iverilog.icarus.com/_/rsrc/1302225644705/config/customLogo.gif?revision=5" height="28" width="101" />
+  </a>
+  <a href="https://gtkwave.sourceforge.net/">
+    <img src="https://i.ibb.co/s1ztX55/gtk.png" height="28" width="101" />
+  </a>
+</p>
+
+Os comandos para rodar são:
+``
+iverilog risc-v.v risc-v_TB.v -Wall
+``
+Um arquivo nomeado "a.out" será gerado e, a seguir, deve ser executado.
+``
+./a.out
+``
+O arquivo com as ondas simuladas serão escritas no arquivo 'my_dumpfile.vcd", sendo agora necessário visualizá-las no GTKWave.
+``
+gtkwave my_dumpfile.vcd
+``
+
 Em cada uma das pastas, você encontrará os módulos utilizados para essa implementação, bem como seus respectivos testbenches. Além disso, há comentários nos códigos que explicam o comportamento de tais componentes.
 
 Espero que você se divirta bastante navegando pelos códigos e possa aprender mais ainda sobre Sistemas Digitais! :)
