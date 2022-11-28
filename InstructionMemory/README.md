@@ -106,5 +106,5 @@ Peraí, achou que não íamos explicar que transformação foi essa? :)
 Aqui embaixo está um esquema de para a passagem feitas da Memória de Dados para o programa no decorrer no programa.
 
 <p align="center">
- <img src="instmem.png" width="100%" height="80%">
+ <img src="instmem.png" width="100%" height="80%" />
 </p>
