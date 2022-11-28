@@ -122,6 +122,7 @@ module riscv (
     mux C(.A(imm), .B(dataReadRegister2), .select(ALUSrc), .result(ndInputALU));
     ALU alu (.A(dataReadRegister1), .B(ndInputALU), .ALUOp(ALUOp), .result(ALUResult), .zero(zero));
     
+    
     and (andBranch, Branch, zero);
     mux A (.A(resAdderA), .B(resAdderB), .select(andBranch), .result(nextPCPosition));
     mux B (.A(dataReadFromMemory), .B(ALUResult), .select(MemToReg), .result(dataToWrite));
