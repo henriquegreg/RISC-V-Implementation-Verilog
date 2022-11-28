@@ -91,3 +91,5 @@ Instruction Set oficial do RISC-V: https://riscv.org/wp-content/uploads/2017/05/
 Computer Organization and Design - RISC-V Edition: http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer%20Organization%20and%20Design%20RISC-V%20edition.pdf
 
 Guia Prático RISC-V 1.0.0: http://riscvbook.com/portuguese/guia-pratico-risc-v-1.0.0.pdf
+
+Site do professor Bruno Albertini: https://balbertini.github.io/pages/sobre-pt_BR.html
