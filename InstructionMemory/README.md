@@ -133,4 +133,6 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 
 ## Resultados das simulações
 
-FAZER
+Como o registrador de posição 0x4 guarda o resultado final, esse é o principal padrão para a análise da simulação.
+
+TERMINAR
