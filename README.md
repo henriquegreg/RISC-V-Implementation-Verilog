@@ -40,14 +40,19 @@ Abaixo estão os ícones com os links para o site do Icarus Verilog e do GTKWave
 </p>
 
 Os comandos para rodar são:
+
 ``
 iverilog risc-v.v risc-v_TB.v -Wall
 ``
+
 Um arquivo nomeado "a.out" será gerado e, a seguir, deve ser executado.
+
 ``
 ./a.out
 ``
+
 O arquivo com as ondas simuladas serão escritas no arquivo 'my_dumpfile.vcd", sendo agora necessário visualizá-las no GTKWave.
+
 ``
 gtkwave my_dumpfile.vcd
 ``
