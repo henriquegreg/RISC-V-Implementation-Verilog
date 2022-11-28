@@ -13,7 +13,7 @@ module data_memory(input clk,
     // zera a memória inteira e adiciona no final
    initial begin
         /* armazena a senha gerada */
-        Memory[0] = 32'd7;
+        Memory[0] = 32'd9;
         /* quantidade de tentativas */
         Memory[1] = 32'd10;
         /* cada uma das tentativas possiveis */
@@ -32,7 +32,7 @@ module data_memory(input clk,
    end
    
    //  assincrono
-   always @(*) begin
+   always @(endereco) begin
         endereco_atual = endereco[4:0];
 
         if (mem_read == 1) begin
