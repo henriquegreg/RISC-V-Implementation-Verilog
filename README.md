@@ -112,7 +112,7 @@ Por fim, uma tela parecida com essa aparecerá:
 Para as testbenches, foi utilizado o Questa*-Intel® FPGA Edition Software.
 
 <p align="center">
-  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Intel_logo_%282006-2020%29.svg/800px-Intel_logo_%282006-2020%29.svg.png">
+  <a href="https://logos-world.net/wp-content/uploads/2021/09/Intel-Emblem.png">
     <img src="https://www.intel.com.br/content/dam/logos/intel-header-logo.svg" height="28" width="101" />
   </a>
 </p>
