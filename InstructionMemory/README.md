@@ -117,7 +117,7 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 💻 Programar em Assembly é trabalhoso. 💻
  </p>
  <p align="center">
- Caso precise saber melhor o que cada uma das instruções está fazendo, analise o código, os diagramas deste README e as difinições do Instruction Set do RISC-V
+ Caso precise saber melhor o que cada uma das instruções está fazendo, analise o código, os diagramas deste README e as difinições do Instruction Set do RISC-V. Link no ícone a seguir.
  </p>
   <p align="center">
  <a href="https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf">
