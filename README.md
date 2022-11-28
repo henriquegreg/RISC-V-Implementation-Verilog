@@ -112,7 +112,7 @@ Por fim, uma tela parecida com essa aparecerá:
 Para as testbenches, foi utilizado o Questa*-Intel® FPGA Edition Software.
 
 <p align="center">
-  <a href="https://www.intel.com.br/content/www/br/pt/software/programmable/quartus-prime/questa-edition.html">
+  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Intel_logo_%282006-2020%29.svg/800px-Intel_logo_%282006-2020%29.svg.png">
     <img src="https://www.intel.com.br/content/dam/logos/intel-header-logo.svg" height="28" width="101" />
   </a>
 </p>
