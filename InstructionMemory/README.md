@@ -2,6 +2,7 @@
 
 A Memória de Instruções é o local onde a sequência de instruções a serem executadas pelo processador são armazenadas. 
 No nosso caso, o Exercício-Programa 0 da disciplina de MAC2166 da Escola Politécnica da Universidade de São Paulo, um exercício introdutório para entrega requerido aos alunos de Engenharia de Computação no primeiro semestre de 2022.
+No final deste arquivo, apresentam-se os resultados das simulações do EP.
 
 <p align="center">
 💻 Aqui está o código utilizado 💻
