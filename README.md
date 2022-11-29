@@ -61,6 +61,21 @@ Abaixo estão a estrutura de cada tipo de instrução:
   <img src="instructionset.png" width="100%" height="39%" />
 </p>
 
+```
+ℹ️ INFORMAÇÃO IMPORTANTE ℹ️
+
+Para seguir em frente, é necessário compreender o que cada parte da instrução significa.
+
+|------|-----|-----|
+|rs1| register source 1|endereço do primeiro registrador de uma operação|
+|rs2| register source 2|endereço do segundo registrador de uma operação|
+|rd| register destination| endereço do registrador de destino de alguma operação|
+|imm| immediate | um número de entrada |
+| opcode | operation code | é a parte da instrução que diferencia um tipo de instrução, tipo R, B, I ...|
+| funct | | são espaços usados para diferenciar instruções. Exemplo, add e sub tem o mesmo opcode, mas functs diferentes|
+
+```
+
 ## Simulação
 Para simular o nosso código, usamos o Icarus Verilog e o GTKWave.
 Abaixo estão os ícones com os links para o site do Icarus Verilog e do GTKWave, contendo as instruções para a instalação.
