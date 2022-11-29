@@ -1,4 +1,4 @@
-`include "./ALU/operations/borrowahead1b.v"
+`include "borrowahead1b.v"
 
 module sub (
     input [31:0] A,
