@@ -1,4 +1,4 @@
-`include "./adders/lookAhead1b.v"
+`include "lookAhead1b.v"
 
 module sum (
     input [31:0] A,
