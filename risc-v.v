@@ -10,8 +10,9 @@
 `include "./mux/mux.v"
 `include "./adders/sum.v"
 
+/* Este modulo e o risc-v em si, como mostrado no diagrama do readme inicial */
+
 module riscv (
-    input wire semente,
     input reset
 );
     initial begin
