@@ -1,6 +1,6 @@
 `timescale 1ns / 100 ps
 
-module immediateG_tb();
+module testbench();
     reg [31:0]instruction_tb;
     wire [11:0] immediate_tb;
     immediateG uut (.instruction(instruction_tb),.immediate(immediate_tb));
