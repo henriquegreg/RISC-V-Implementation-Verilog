@@ -1,7 +1,7 @@
-`include "./ALU/operations/and.v"
-`include "./ALU/operations/sub.v"
-`include "./ALU/operations/sum.v"
-`include "./ALU/operations/or.v"
+`include "./operations/and.v"
+`include "./operations/sub.v"
+`include "./operations/sum.v"
+`include "./operations/or.v"
 
 module ALU (
     input [31:0] A,
