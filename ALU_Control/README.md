@@ -17,4 +17,4 @@ Abaixo está a tabela verdade da ALU Control
 
 O circuito sintetizado da ALU Control está disponível abaixo:
 
-![ALUControl](ALUControl.jpg)
+![ALUControl](ALUControl.png)
