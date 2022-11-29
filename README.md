@@ -61,12 +61,15 @@ Abaixo estão a estrutura de cada tipo de instrução:
   <img src="instructionset.png" width="100%" height="39%" />
 </p>
 
+<p align="center">
 ``
-ℹ️ INFORMAÇÃO IMPORTANTE ℹ️
+⚠️ INFORMAÇÃO IMPORTANTE ⚠️
 ``
 ``
 Para seguir em frente, é necessário compreender o que cada parte da instrução significa.
 ``
+</p>
+
 | Abreviação | Significado | Descrição |
 |------|-----|-----|
 |rs1| register source 1|endereço do primeiro registrador de uma operação|
