@@ -1,4 +1,6 @@
 `timescale 1ns/100ps
+
+/* esta testbench serve para rodar o risc-v resetando ele, ou seja, reiniciando */
 module testbench();
     reg reset;
     riscv UUT (.reset(reset));
