@@ -62,12 +62,10 @@ Abaixo estão a estrutura de cada tipo de instrução:
 </p>
 
 <p align="center">
-``
 ⚠️ INFORMAÇÃO IMPORTANTE ⚠️
-``
-``
+</p>
+<p align="center">
 Para seguir em frente, é necessário compreender o que cada parte da instrução significa.
-``
 </p>
 
 | Abreviação | Significado | Descrição |
