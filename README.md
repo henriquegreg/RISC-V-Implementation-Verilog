@@ -75,7 +75,7 @@ Para seguir em frente, é necessário compreender o que cada parte da instruçã
 |rd| register destination| endereço do registrador de destino de alguma operação|
 |imm| immediate | um número de entrada |
 | opcode | operation code | é a parte da instrução que diferencia um tipo de instrução, tipo R, B, I ...|
-| funct | | são espaços usados para diferenciar instruções. Exemplo, add e sub tem o mesmo opcode, mas functs diferentes. Para diferenciar funct3 e funct7, conte quantos bits eles são :) |
+| funct | | são espaços usados para diferenciar instruções. Exemplo, add e sub tem o mesmo opcode, mas functs diferentes. Para diferenciar funct3 e funct7, conte quantos bits eles tem :) |
 
 
 ## Simulação
