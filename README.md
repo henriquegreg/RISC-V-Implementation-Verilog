@@ -100,11 +100,14 @@ iverilog risc-v.v risc-v_TB.v -Wall -I ./ALU -I ./ALU/operations -I ./ALU/operat
   ⚠️ ATENÇÃO ⚠️
 </p>
 <p align="center">
-  Caso ocorra algum erro ao importar algum arquivo, um problema provável é que o Icarus Verilog considerou o caminho do workspace como padrão de início do navegação até um arquivo. Caso tenha problema com isso, ao baixar, substitua as pasta contidas nesse arquivo por estas contendo os imports levando em consideração a pasta do arquivo como padrão para importação
+  Caso ocorra algum erro ao importar algum arquivo, um problema provável é que o Icarus Verilog considerou o caminho do workspace como padrão de início do navegação até um arquivo. Caso tenha problema com isso, verifique este arquigo no StackOverflow
+
+ Há também
+ 
 </p>
 <p align="center">
-  <a href="https://github.com/bertanbee/arquivos-substitutivos-sim">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://stackoverflow.com/questions/47449489/how-to-include-files-in-icarus-verilog">
+    <img src="https://stackoverflow.design/assets/img/logos/so/logo-stackoverflow.png" height="30" width="100" />
   </a>
 </p>
 
