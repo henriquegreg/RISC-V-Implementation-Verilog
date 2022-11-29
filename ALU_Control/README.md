@@ -7,8 +7,11 @@ Abaixo está a tabela verdade da ALU Control
 ![truthtable](tabela_verdade_aluctrl.jpeg)
 
 0010 -> soma
+
 0110 -> subtração
+
 0000 -> AND
+
 0001 -> OR
 
 
