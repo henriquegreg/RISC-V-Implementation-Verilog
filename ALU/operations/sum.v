@@ -1,4 +1,4 @@
-`include "./ALU/operations/lookAhead1b.v"
+`include "lookAhead1b.v"
 
 module sumALU (
     input [31:0] A,
