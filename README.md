@@ -67,6 +67,7 @@ Abaixo estão a estrutura de cada tipo de instrução:
 ``
 Para seguir em frente, é necessário compreender o que cada parte da instrução significa.
 ``
+| Abreviação | Significado | Descrição |
 |------|-----|-----|
 |rs1| register source 1|endereço do primeiro registrador de uma operação|
 |rs2| register source 2|endereço do segundo registrador de uma operação|
