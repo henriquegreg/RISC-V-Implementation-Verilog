@@ -93,7 +93,7 @@ Abaixo estão os ícones com os links para o site do Icarus Verilog e do GTKWave
 Os comandos para rodar são:
 
 ``
-iverilog risc-v.v risc-v_TB.v -Wall
+iverilog risc-v.v risc-v_TB.v -Wall -I ./ALU -I ./ALU/operations -I ./ALU/operations -I ./adders
 ``
 
 <p align="center">
