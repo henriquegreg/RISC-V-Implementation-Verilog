@@ -22,7 +22,7 @@ Os input são dessa forma:
 3
 ```
 
-Sendo que o primeiro input é a senha, o segundo é o número de tentativas n (< 10) e os outros números são os inputs para cada uma das tentativas n (cada uma < 10). No final, o arquivo DataMemory.v será gerado.
+Sendo que o primeiro input é a senha (0 <= x < 10), o segundo é o número de tentativas n (0 <= x < 10) e os outros números são os inputs para cada uma das tentativas n (cada uma 0 <= x < 10). No final, o arquivo DataMemory.v será gerado.
 
 ## Recursos para leitura e escrita na memória
 Os sinais mem_read e mem_write habilitam a leitura de uma posição "endereco" (output "read_data") ou a escrita de uma "write_data" na posição endereço, respectivamente.
