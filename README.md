@@ -163,6 +163,27 @@ Após a simulação terminar de rodar e mostrar os possíveis erros, basta inser
 
 ``quit``
 
+## Orçamento
+Como a implementação para FPGA foi feita na FPGA Cyclone V, tentamos fazer pesquisas nessa linha.
+
+No market place do Google, encontramos kits de desenvolvimento custando pelo menos R$1500,00. Para a placa em si, só foram encontrador preços para a FPGA Cyclone IV, custando entre R$200 e R$300.
+
+Abaixo, o link para a páfina da FPGA Cyclone V:
+
+<p align="center">
+  <a href="https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/v.html">
+    <img src="https://logos-world.net/wp-content/uploads/2021/09/Intel-Emblem.png" height="28" width="75" />
+  </a>
+</p>
+
+Também encontramos uma FPGA que foca no aprendizado e desenvolvimento do RISC-V, chamando-se Perf-V. Sendo assim, deixamos uma referência a ela aqui:
+
+<p align="center">
+  <a href="https://perfv.org/">
+    <img src="https://perfv.org/images/logo.png" height="28" width="30" />
+  </a>
+</p>
+
 ## Considerações finais
 
 Em cada uma das pastas, você encontrará os módulos utilizados para essa implementação, bem como seus respectivos testbenches. Além disso, há comentários nos códigos que explicam o comportamento de tais componentes.
