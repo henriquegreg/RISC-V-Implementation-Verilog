@@ -43,6 +43,10 @@ Abaixo você poderá ver um diagrama detalhado que descreve o funcionamento do c
 
 ![Circuito](Circuito.jpg)
 
+Aqui, o circuito sintetizado:
+
+![Sintetizado](sintetizado.jpeg)
+
 ## Instruções
 As instruções que o processador feito pelo grupo utiliza são:
 |  Instrução  | Tipo |  Descrição |
