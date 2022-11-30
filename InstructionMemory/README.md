@@ -131,6 +131,119 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
  <img src="assembly.png" width="100%" height="80%" \>
 </p>
 
+E aqui está o Assembly do EP 0 para o RISC-V:
+
+```
+lw x5, 0(x13)
+lw x1, 0(x0)
+lw x2, 0(x1)
+
+beq x2, x0, 39
+lw x3, 0(x2)
+beq x1, x3, 40
+sub x2, x2, x5
+
+beq x2, x0, 35
+lw x3, 0(x3)
+beq x1, x3, 36
+sub x2, x2, x5
+
+beq x2, x0, 31
+lw x3, 0(x4)
+beq x1, x3, 32
+sub x2, x2, x5
+
+beq x2, x0, 27
+lw x3, 0(x5)
+beq x1, x3, 28
+sub x2, x2, x5
+
+beq x2, x0, 23
+lw x3, 0(x6)
+beq x1, x3, 24
+sub x2, x2, x5
+
+beq x2, x0, 19
+lw x3, 0(x7)
+beq x1, x3, 20
+sub x2, x2, x5
+
+beq x2, x0, 15
+lw x3, 0(x8)
+beq x1, x3, 16
+sub x2, x2, x5
+
+beq x2, x0, 11
+lw x3, 0(x9)
+beq x1, x3, 12
+sub x2, x2, x5
+
+beq x2, x0, 7
+lw x3, 0(x10)
+beq x1, x3, 8
+sub x2, x2, x5
+
+beq x2, x0, 3
+lw x3, 0(x11)
+beq x1, x3, 4
+sub x2, x2, x5
+
+sw x0, 0(x13)
+beq x0, x0, 2
+
+sw x5, 0(x13)
+
+lw x4, 0(x13)
+
+beq x0, x0, 0
+
+```
+
+Usamos a biblioteca de Python ``riscv-assembler`` para transformar o Assembly para os binários das instruções. Aqui está o link para essa library:
+
+<p align="center">
+ <a href="https://www.riscvassembler.org/">
+ <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" height="30" width="100" \>
+ </a>
+
+Ademais, caso queira compilar os seus próprios programas, aqui está um mini tutorial:
+
+1. Primeiro, instale a library ``riscv-assembler`` seguindo o link deixado anteriormente.
+
+2. Crie um arquivo .py com o seguinte código:
+
+```
+from riscv_assembler.convert import AssemblyConverter
+
+cnv = AssemblyConverter()
+cnv.convert("seu_assembly_topzera.s")
+```
+
+3. Depois de rodar, um arquivo .bin será gerado. Ao clicar nele, você deverá visualizá-lo como hexadecimal usando a seguinte opção:
+
+<p align="center">
+ <img src="https://i.ibb.co/1T2XhSn/Whats-App-Image-2022-11-30-at-17-27-05.jpg" width="50%" height="40%" \>
+</p>
+
+Agora você tem um arquivo interativo onde você pode clicar nos números em hexadecimal e visualizar o binário, caso esteja no Visual Studio Code.
+
+<p align="center">
+ <img src="https://i.ibb.co/48rd2N6/Whats-App-Image-2022-11-30-at-17-24-55.jpg" width="60%" height="100%" \>
+</p>
+
+<p align="center">
+ <img src="https://i.ibb.co/GshKtz3/Whats-App-Image-2022-11-30-at-17-36-48.jpg" width="60%" height="100%" \>
+</p>
+
+<p align="center">
+⚠️ Atenção! ⚠️
+ </p>
+ 
+ <p align="center">
+Na nossa implementação, a Instruction Memory é composta por 1 palavra de 32 bits para cada instrução, e não 8 palavras de 4 bits padrão do RISC-V. 
+De qualquer forma, tudo continua funcional.
+ </p>
+
 ## Resultados das simulações
 
 Primeiro, simula-se uma situação na qual a senha é 9 o número de tentativas é 10, sendo elas, em sequência:
