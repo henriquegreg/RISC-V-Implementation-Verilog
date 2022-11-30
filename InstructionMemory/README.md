@@ -225,7 +225,7 @@ cnv.convert("seu_assembly_topzera.s")
  <img src="https://i.ibb.co/1T2XhSn/Whats-App-Image-2022-11-30-at-17-27-05.jpg" width="50%" height="40%" \>
 </p>
 
-Agora você tem um arquivo interativo onde você pode clicar nos números em hexadecimal e visualizar o binário, caso esteja no Visual Studio Code.
+Agora você tem um arquivo interativo onde você pode clicar nos números em hexadecimal e visualizar o binário das instruções, caso esteja no Visual Studio Code.
 
 <p align="center">
  <img src="https://i.ibb.co/48rd2N6/Whats-App-Image-2022-11-30-at-17-24-55.jpg" width="60%" height="100%" \>
