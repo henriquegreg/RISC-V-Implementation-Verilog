@@ -134,66 +134,66 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 E aqui está o Assembly do EP 0 para o RISC-V:
 
 ```
-lw x5, 0(x13)
+lw x5, 12(x0)
 lw x1, 0(x0)
-lw x2, 0(x1)
+lw x2, 1(x0)
 
 beq x2, x0, 39
-lw x3, 0(x2)
+lw x3, 2(x0)
 beq x1, x3, 40
 sub x2, x2, x5
 
 beq x2, x0, 35
-lw x3, 0(x3)
+lw x3, 3(x0)
 beq x1, x3, 36
 sub x2, x2, x5
 
 beq x2, x0, 31
-lw x3, 0(x4)
+lw x3, 4(x3)
 beq x1, x3, 32
 sub x2, x2, x5
 
 beq x2, x0, 27
-lw x3, 0(x5)
+lw x3, 5(x0)
 beq x1, x3, 28
 sub x2, x2, x5
 
 beq x2, x0, 23
-lw x3, 0(x6)
+lw x3, 6(x0)
 beq x1, x3, 24
 sub x2, x2, x5
 
 beq x2, x0, 19
-lw x3, 0(x7)
+lw x3, 7(x0)
 beq x1, x3, 20
 sub x2, x2, x5
 
 beq x2, x0, 15
-lw x3, 0(x8)
+lw x3, 8(x0)
 beq x1, x3, 16
 sub x2, x2, x5
 
 beq x2, x0, 11
-lw x3, 0(x9)
+lw x3, 9(x0)
 beq x1, x3, 12
 sub x2, x2, x5
 
 beq x2, x0, 7
-lw x3, 0(x10)
+lw x3, 10(x0)
 beq x1, x3, 8
 sub x2, x2, x5
 
 beq x2, x0, 3
-lw x3, 0(x11)
+lw x3, 11(x0)
 beq x1, x3, 4
 sub x2, x2, x5
 
-sw x0, 0(x13)
+sw x0, 13(x0)
 beq x0, x0, 2
 
-sw x5, 0(x13)
+sw x5, 13(x0)
 
-lw x4, 0(x13)
+lw x4, 13(x0)
 
 beq x0, x0, 0
 
@@ -228,11 +228,7 @@ cnv.convert("seu_assembly_topzera.s")
 Agora você tem um arquivo interativo onde você pode clicar nos números em hexadecimal e visualizar o binário das instruções, caso esteja no Visual Studio Code.
 
 <p align="center">
- <img src="https://i.ibb.co/48rd2N6/Whats-App-Image-2022-11-30-at-17-24-55.jpg" width="60%" height="100%" \>
-</p>
-
-<p align="center">
- <img src="https://i.ibb.co/GshKtz3/Whats-App-Image-2022-11-30-at-17-36-48.jpg" width="60%" height="100%" \>
+ <img src="https://i.ibb.co/1X48ky9/assembly-png.png" width="60%" height="100%" \>
 </p>
 
 <p align="center">
