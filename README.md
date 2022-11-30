@@ -47,6 +47,10 @@ Aqui, o circuito sintetizado:
 
 ![Sintetizado](sintetizado.jpeg)
 
+Também foi feita uma implementação para FPGA, representada abaixo:
+
+![fpga](riscv-fpga-pinplanner.png)
+
 ## Instruções
 As instruções que o processador feito pelo grupo utiliza são:
 |  Instrução  | Tipo |  Descrição |
