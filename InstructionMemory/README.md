@@ -134,69 +134,145 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
 E aqui está o Assembly do EP 0 para o RISC-V:
 
 ```
+/* seta posição 0x5 (registrador) como 0xC (memória) */
 lw x5, 12(x0)
+/* seta register 0x1 como o número aleatório gerado (0x0 da memória) */
 lw x1, 0(x0)
+/* seta register 0x2 como o número de tentativas máximo (0x1 da memória) */
 lw x2, 1(x0)
 
+/* 
+    Bloco para tentativa 1
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 39
+/* seta register 0x3 (tentativa atual) como a tentativa 1 (0x2 da memória) */
 lw x3, 2(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 40
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 2
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 35
+/* seta register 0x3 (tentativa atual) como a tentativa 2 (0x3 da memória) */
 lw x3, 3(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 36
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 3
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 31
+/* seta register 0x3 (tentativa atual) como a tentativa 3 (0x4 da memória) */
 lw x3, 4(x3)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 32
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 4
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 27
+/* seta register 0x3 (tentativa atual) como a tentativa 4 (0x5 da memória) */
 lw x3, 5(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 28
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 5
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 23
+/* seta register 0x3 (tentativa atual) como a tentativa 5 (0x6 da memória) */
 lw x3, 6(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 24
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 6
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 19
+/* seta register 0x3 (tentativa atual) como a tentativa 6 (0x7 da memória) */
 lw x3, 7(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 20
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 7
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 15
+/* seta register 0x3 (tentativa atual) como a tentativa 7 (0x8 da memória) */
 lw x3, 8(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 16
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 8
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 11
+/* seta register 0x3 (tentativa atual) como a tentativa 8 (0x9 da memória) */
 lw x3, 9(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 12
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 9
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 7
+/* seta register 0x3 (tentativa atual) como a tentativa 9 (0xA da memória) */
 lw x3, 10(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 8
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* 
+    Bloco para tentativa 10
+*/
+/* se 0x2 (tentativas feitas) - 0x0 (0) == 0, número de tentativas atual é 0 */
 beq x2, x0, 3
+/* seta register 0x3 (tentativa atual) como a tentativa 10 (0xB da memória) */
 lw x3, 11(x0)
+/* se 0x1 (senha) - 0x3 (tentativa atual) == 0, tentativa atual esta certa */
 beq x1, x3, 4
+/* seta registrador 0x2 (tentativas feitas) como 0x2 - 0x5 (posição valendo 1) */
 sub x2, x2, x5
 
+/* chega aqui caso tenham sido feitas todas as tentativas e nenhuma correta */
+/* seta memoria 0xD (resultado) como 0x0 (register nulo) (resposta errada) */
 sw x0, 13(x0)
+/* salta para o final do programa */
 beq x0, x0, 2
 
+/* seta memoria 0xD (resultado) como 0x5 (register valendo 1) (resposta certa) */
 sw x5, 13(x0)
-
+/* coloca no registrador 0x4 o resultado do jogo */
 lw x4, 13(x0)
-
+/* termina o programa travando o PC */
 beq x0, x0, 0
-
 ```
 
 Usamos a biblioteca de Python ``riscv-assembler`` para transformar o Assembly para os binários das instruções. Aqui está o link para essa library:
