@@ -162,10 +162,12 @@ Em cada uma das pastas, você encontrará os módulos utilizados para essa imple
 Espero que você se divirta bastante navegando pelos códigos e possa aprender mais ainda sobre Sistemas Digitais! :)
 
 ## Referências
-Instruction Set oficial do RISC-V: https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf
+Waterman, Andrew et al. The RISC-V Instruction Set Manual: Volume I: User-Level ISA. 2.2. SiFive Inc, 2017. Disponível em: https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf. Acesso em 30 de nov.
 
-Computer Organization and Design - RISC-V Edition: http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer%20Organization%20and%20Design%20RISC-V%20edition.pdf
+Azevedo, Jean. You tube. Disponível em: https://www.youtube.com/@rjazevedo. Acesso em 30 de nov.
 
-Guia Prático RISC-V 1.0.0: http://riscvbook.com/portuguese/guia-pratico-risc-v-1.0.0.pdf
+PATTERSON, DAVID et al. Computer Organization and Design: The Hardware/Software Interface: RISC-V Edition. SiFive, Inc. 2018. Disponível em: http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer%20Organization%20and%20Design%20RISC-V%20edition.pdf. Acesso em 30 de nov.
 
-Site do professor Bruno Albertini: https://balbertini.github.io/pages/sobre-pt_BR.html
+Patterson, David et al. GUIA PRÁTICO RISC-V: Atlas de uma arquitetura aberta. 1. 2019. Disponível em: http://riscvbook.com/portuguese/guia-pratico-risc-v-1.0.0.pdf. Acesso em: 30 de nov.
+
+Albertini, Bruno. R. GitHub: Sistemas Digitais. Disponível em: https://balbertini.github.io/pages/sd-pt_BR.html#sd. Acesso em 30 de nov.
