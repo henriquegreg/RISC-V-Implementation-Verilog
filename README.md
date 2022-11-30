@@ -166,7 +166,7 @@ Após a simulação terminar de rodar e mostrar os possíveis erros, basta inser
 ## Orçamento
 Como a implementação para FPGA foi feita na FPGA Cyclone V, tentamos fazer pesquisas nessa linha.
 
-No market place do Google, encontramos kits de desenvolvimento custando pelo menos R$1500,00. Para a placa em si, só foram encontrador preços para a FPGA Cyclone IV, custando entre R$200 e R$300.
+No market place do Google, encontramos kits de desenvolvimento custando pelo menos R$1500,00. Para a placa em si, só foram encontrador preços para a FPGA Cyclone IV, custando entre R$200,00 e R$300,00.
 
 Abaixo, o link para a páfina da FPGA Cyclone V:
 
