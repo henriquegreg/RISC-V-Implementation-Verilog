@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/henriquegreg/Grupo-3---Grupo-Cessar---PCS3115">
+  <a href="https://github.com/henriquegreg/Grupo-3---Grupo-Cessar---PCS3115q">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="http://iverilog.icarus.com/">
@@ -100,7 +100,7 @@ iverilog risc-v.v risc-v_TB.v -Wall -I ./ALU -I ./ALU/operations -I ./ALU/operat
   ⚠️ ATENÇÃO ⚠️
 </p>
 <p align="center">
-  Caso ocorra algum erro ao importar algum arquivo, um problema provável é que o Icarus Verilog considerou o caminho do workspace como padrão de início do navegação até um arquivo. Caso tenha problema com isso, verifique este arquigo no StackOverflow
+  Caso ocorra algum erro ao importar algum arquivo, um problema provável é que o Icarus Verilog considerou o caminho do workspace como padrão de início do navegação até um arquivo. Caso tenha problema com isso, verifique este artigo no StackOverflow
  
 </p>
 <p align="center">
