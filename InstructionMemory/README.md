@@ -107,7 +107,7 @@ Peraí, achou que não íamos explicar que transformação foi essa? :)
 Aqui embaixo está um esquema das passagens feitas da Memória de Dados para o programa no decorrer do algoritmo.
 
 <p align="center">
- <img src="instmem.png" width="100%" height="80%" \>
+ <img src="./images/instmem.png" width="100%" height="80%" \>
 </p>
 
 Foram traduzidos bit a bit cada uma das instruções add, sub, and, or, lw, sw e beq. As especificações dessas instruções estão em outras apresentações neste repositório.
@@ -128,7 +128,7 @@ Sendo assim, uma versão intuitiva, quase que o Assembly do Exercício programa,
  
  
 <p align="center">
- <img src="assembly.png" width="100%" height="80%" \>
+ <img src="./images/assembly.png" width="100%" height="80%" \>
 </p>
 
 E aqui está o Assembly do EP 0 para o RISC-V:
@@ -247,7 +247,7 @@ Primeiro, simula-se uma situação na qual a senha é 9 o número de tentativas 
 
 Abaixo está a primeira simulação de onda:
 <p align="center">
- <img src="wave1.png" width="100%" height="30%" \>
+ <img src="./images/wave1.png" width="100%" height="30%" \>
 </p>
 
 Observando a Posição na InstMem (valor armazenado no Program Counter), pode-se saber a instrução atual sendo realizada no processador. Sendo assim, na figura anterior, pode ser visualizado até a instrução 3.
@@ -257,14 +257,14 @@ Percebe-se que os valores foram carregados nos registradores como esperado nas b
 Ademais, abaixo encontra-se uma visualização mais ao longe da simulação do programa. Percebe-se que foram testados os valores até a última tentativa, onde o valor 9 foi encontrado, armazenando o valor 1 ao resultado e travando a posição da Instruction Memory na posição final do programa.
 
 <p align="center">
- <img src="wave2.png" width="100%" height="30%" \>
+ <img src="./images/wave2.png" width="100%" height="30%" \>
 </p>
 
 Por último, simula-se uma situação na qual a senha é 9 o número de tentativas é 5, sendo elas, em sequência:
 ``0 1 2 3 4``
 
 <p align="center">
- <img src="wave3.png" width="100%" height="30%" \>
+ <img src="./images/wave3.png" width="100%" height="30%" \>
 </p>
 
 Percebe-se que o programa testa até terminarem todas as tentativas, sendo que nenhuma delas é a correta. Sendo assim, o resultado do programa é 0.
